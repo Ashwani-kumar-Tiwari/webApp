@@ -4,8 +4,24 @@
     ViewData["Title"] = "Home page";
 }
 
+<style>
+.heart {
+	font-size: 150px;
+	color: #e00;
+	animation: beat .25s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+</style>
+
 <div class="text-center">
     <h1 class="display-4">Shivani </h1>
-    <h1 class="display-4">I really really really really hat you</h1>
+    <h1 class="display-4">I Like You</h1>
+    <div class="heart">&#x2665;</div>
+    <h1>Listen to my heartbeat</h1>
     
 </div>
